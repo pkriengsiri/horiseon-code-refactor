@@ -1,12 +1,18 @@
+/* Applies styling to all elements on the page */
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
+/* Sets the body element background colors */
+
 body {
   background-color: #d9dcd6;
 }
+
+/* Applies styling to the header element */
 
 header {
   padding: 20px;
@@ -25,6 +31,8 @@ header h1 .seo {
   color: #d9dcd6;
 }
 
+/* Applies styling to the header nav elements */
+
 header nav {
   padding-top: 15px;
   margin-right: 20px;
@@ -42,14 +50,20 @@ header nav ul li {
   margin-left: 25px;
 }
 
+/* Applies styling to all hyperlinks */
+
 a {
   color: #ffffff;
   text-decoration: none;
 }
 
+/* Applies styling to all paragraph elements */
+
 p {
   font-size: 16px;
 }
+
+/* Applies styling to the hero background image that precedes the main text */
 
 .hero {
   height: 800px;
@@ -60,23 +74,25 @@ p {
   background-position: center;
 }
 
-.float-left {
-  float: left;
-  margin-right: 25px;
-}
+/* Applies styling to the services section of the main content */
 
-.float-right {
-  float: right;
-  margin-left: 25px;
-}
-
-.content {
+.services {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
 
-.services {
+.float-left {
+    float: left;
+    margin-right: 25px;
+  }
+  
+  .float-right {
+    float: right;
+    margin-left: 25px;
+  }
+
+.service {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
@@ -85,14 +101,16 @@ p {
   color: #ffffff;
 }
 
-.services img {
+.service img {
   max-height: 200px;
 }
 
-.services h2 {
+.service h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
+
+/* Applies styling to the benefits section of the main content */
 
 .benefits {
     margin-right: 20px;
@@ -120,6 +138,8 @@ p {
     margin: 10px auto;
     max-width: 150px;
   }
+
+/* Applies styling to the footer */
 
 .footer {
   padding: 30px;
