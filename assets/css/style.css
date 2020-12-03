@@ -6,13 +6,16 @@
   margin: 0;
 }
 
-/* Sets the body element background colors */
+/* Element Styling */
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
 
 body {
   background-color: #d9dcd6;
 }
-
-/* Applies styling to the header element */
 
 header {
   padding: 20px;
@@ -31,8 +34,6 @@ header h1 .seo {
   color: #d9dcd6;
 }
 
-/* Applies styling to the header nav elements */
-
 header nav {
   padding-top: 15px;
   margin-right: 20px;
@@ -50,96 +51,48 @@ header nav ul li {
   margin-left: 25px;
 }
 
-/* Applies styling to all hyperlinks */
-
-a {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-/* Applies styling to all paragraph elements */
-
 p {
   font-size: 16px;
 }
 
-/* Applies styling to the hero background image that precedes the main text */
+/* Class styling */
 
-.hero {
-  height: 800px;
-  width: 100%;
-  margin-bottom: 25px;
-  background-image: url("../images/digital-marketing-meeting.jpg");
-  background-size: cover;
-  background-position: center;
-}
-
-/* Applies styling to the services section of the main content */
-
-.services {
-  width: 75%;
-  display: inline-block;
-  margin-left: 20px;
-}
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-  }
-  
-  .float-right {
-    float: right;
-    margin-left: 25px;
-  }
-
-.service {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
+.benefit {
+  margin-bottom: 32px;
   color: #ffffff;
 }
 
-.service img {
-  max-height: 200px;
+.benefit h3 {
+  margin-bottom: 10px;
+  text-align: center;
 }
 
-.service h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
+.benefit img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
 }
-
-/* Applies styling to the benefits section of the main content */
 
 .benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    background-color: #2589bd;
-  }
-  
-  .benefit {
-    margin-bottom: 32px;
-    color: #ffffff;
-  }
-  
-  .benefit h3 {
-    margin-bottom: 10px;
-    text-align: center;
-  }
-  
-  .benefit img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-  }
+  margin-right: 20px;
+  padding: 20px;
+  clear: both;
+  float: right;
+  width: 20%;
+  height: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #2589bd;
+}
 
-/* Applies styling to the footer */
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+
+.float-right {
+  float: right;
+  margin-left: 25px;
+}
 
 .footer {
   padding: 30px;
@@ -151,4 +104,36 @@ p {
 
 .footer h2 {
   font-size: 20px;
+}
+
+.hero {
+  height: 800px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../images/digital-marketing-meeting.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.service {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+.service img {
+  max-height: 200px;
+}
+
+.service h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+.services {
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
 }
