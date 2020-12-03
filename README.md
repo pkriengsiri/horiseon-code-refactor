@@ -22,7 +22,9 @@ This project is a code refactor for the Horiseon website homepage.   The purpose
 
 ## Installation
 
-Upload index.html and assets folder to the deployed webserver.  The assets folder contains images and CSS files.
+Upload index.html, license.txt, and assets folder to the deployed webserver.  The assets folder contains images and CSS files.
+
+The deployed website linked above was deployed using GitHub Pages.
 
 ## Usage
 
@@ -31,7 +33,7 @@ Once deployed the application can be viewed in a traditional desktop web browser
 ![screenshot of index.html](./assets/images/screenshot.png)
 
 ## Credits
-Collaborators on this project included instructional staff, TAs, and students in the Georgia Tech Coding Boot Camp Winter 2020 cohort.
+Collaborators on this project included instructional staff, TAs, and students in the Georgia Tech Coding Boot Camp Winter 2020 cohort.  Specific guidance for adding the license badge and txt file was provided by Nathan Castaldi.
 
 ### References and tutorials utilized
 * [https://www.w3schools.com/html/html5_semantic_elements.asp](https://www.w3schools.com/html/html5_semantic_elements.asp)
@@ -69,3 +71,5 @@ SOFTWARE.
 
 [![GitHub issues](https://img.shields.io/github/issues/pkriengsiri/horiseon-code-refactor)](https://github.com/pkriengsiri/horiseon-code-refactor/issues)
 [![GitHub stars](https://img.shields.io/github/stars/pkriengsiri/horiseon-code-refactor)](https://github.com/pkriengsiri/horiseon-code-refactor/stargazers)
+![GitHub license](https://img.shields.io/github/license/pkriengsiri/horiseon-code-refactor)
+
