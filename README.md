@@ -2,26 +2,40 @@
 
 ## Description
 
-This project is a code refactor for the Hirseon company main webpage.   The purposes of this refactoring is to make the previous code more efficient, comprehensible and accessible.
+This project is a code refactor for the Hirseon website homepage.   The purposes of this refactoring is to make the previous code more efficient, comprehensible and accessible.  This modification does not change the displayed styling of the page, only the underlying code.
 
-Redundant classes were consolidated
-HTML elements were replaced with semantic HTML elements
-Alt text was added to images
-Explainatory comments were provided in the HTML and CSS documents
+* Redundant classes were consolidated
+* HTML elements were replaced with semantic HTML elements
+* Alt text was added to images
+* Explainatory comments were provided in the HTML and CSS documents
+* A descriptive title was added
 
-Link to the deployed application
+### Links
 
-Link to the code respository
+[Link to the deployed website](https://pkriengsiri.github.io/horiseon-code-refactor/)
+
+[Link to the code respository](https://github.com/pkriengsiri/horiseon-code-refactor)
 
 ## Installation
 
 Upload index.html and assets folder to the deployed webserver.  The assets folder contains images and CSS files.
 
-![screenshot of index.html](./assets/images/screenshot.png)
-
 ## Usage
 
+Once deployed the application can be viewed in a traditional desktop web browser.  It it not yet optimized for smaller screens.
+
+![screenshot of index.html](./assets/images/screenshot.png)
+
 ## Credits
+Collaborators on this project included instructional staff, TAs, and students in the Georgia Tech Coding Boot Camp Winter 2020 cohort.
+
+### References and tutorials utilized
+* [https://www.w3schools.com/html/html5_semantic_elements.asp](https://www.w3schools.com/html/html5_semantic_elements.asp)
+* [https://www.youtube.com/watch?v=kGW8Al_cga4](https://www.youtube.com/watch?v=kGW8Al_cga4)
+* [http://www.davidmacd.com/blog/alternate-text-for-css-background-images.html](http://www.davidmacd.com/blog/alternate-text-for-css-background-images.html)
+* [https://www.markdownguide.org/basic-syntax/](https://www.markdownguide.org/basic-syntax/)
+* [https://masteringmarkdown.com/](https://masteringmarkdown.com/)
+
 
 ## License
 
