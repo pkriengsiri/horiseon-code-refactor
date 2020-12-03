@@ -10,7 +10,7 @@ This project is a code refactor for the Horiseon website homepage.   The purpose
 * Alt text was added to images
 * Explanatory comments were provided in the HTML document
 * CSS was reorganized to follow a logical structure
-    * Classes and elements were separated, then ordered alphabetically withing each group
+    * Classes and elements were separated, then ordered alphabetically within each group
     * Comments added to delineate each separation
 * A descriptive title was added
 
