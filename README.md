@@ -18,7 +18,7 @@ This project is a code refactor for the Horiseon website homepage.   The purpose
 
 [Link to the deployed website](https://pkriengsiri.github.io/horiseon-code-refactor/)
 
-[Link to the code respository](https://github.com/pkriengsiri/horiseon-code-refactor)
+[Link to the code repository](https://github.com/pkriengsiri/horiseon-code-refactor)
 
 ## Installation
 
